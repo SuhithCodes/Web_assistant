@@ -1,0 +1,29 @@
+{
+  "monthly_charge": {
+    "actions": [
+      "add salary of 4000",
+      "remove groceries charges of 400",
+      "remove rent of 400",
+      "emi as 2000"
+    ],
+    "url": "http://localhost:3000/",
+    "timestamp": "2025-05-07T11:52:14.396208"
+  },
+  "srestha_budget": {
+    "actions": [
+      "i get 700 from bakery, 200 from catering",
+      "rent is 370, groceries is 200, other expenses 200"
+    ],
+    "url": "http://localhost:3000/",
+    "timestamp": "2025-05-07T22:01:07.145968"
+  },
+  "my_budget": {
+    "actions": [
+      "i get 500 from my dad",
+      "pay rent for 370",
+      "groceries for 130"
+    ],
+    "url": "http://localhost:3000/",
+    "timestamp": "2025-05-07T22:17:10.363958"
+  }
+}

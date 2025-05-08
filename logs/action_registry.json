@@ -1,0 +1,321 @@
+{
+  "http://localhost:3000/": {
+    "timestamp": "2025-05-07T22:17:48.135538",
+    "actions": [
+      {
+        "action": "type",
+        "description": "Enter a description for the transaction",
+        "selector": "#description",
+        "requirements": "The input field must be visible and not disabled"
+      },
+      {
+        "action": "type",
+        "description": "Enter the amount of the transaction",
+        "selector": "#amount",
+        "requirements": "The input field must be visible and not disabled, and only numbers can be entered"
+      },
+      {
+        "action": "click",
+        "description": "Select income as the transaction type",
+        "selector": ".type-btn.income-btn",
+        "requirements": "The button must be visible and not disabled"
+      },
+      {
+        "action": "click",
+        "description": "Select expense as the transaction type",
+        "selector": ".type-btn.expense-btn",
+        "requirements": "The button must be visible and not disabled"
+      },
+      {
+        "action": "click",
+        "description": "Submit the transaction",
+        "selector": ".submit-btn",
+        "requirements": "The button must be visible and not disabled, and all required fields must be filled"
+      }
+    ]
+  },
+  "https://gh-users-search.netlify.app/": {
+    "timestamp": "2025-05-07T21:54:39.088267",
+    "actions": [
+      {
+        "action": "type",
+        "description": "Enter a GitHub username to search for",
+        "selector": "input[type='text']",
+        "requirements": "The input field must not be empty"
+      },
+      {
+        "action": "click",
+        "description": "Submit the search form",
+        "selector": "button[type='submit']",
+        "requirements": "The input field must not be empty"
+      },
+      {
+        "action": "click",
+        "description": "Follow a GitHub user",
+        "selector": "a:contains('follow')",
+        "requirements": "The user must be logged in to their GitHub account"
+      },
+      {
+        "action": "click",
+        "description": "Visit a GitHub user's profile",
+        "selector": "a[href^='https://github.com/']",
+        "requirements": "The link must be a valid GitHub profile URL"
+      },
+      {
+        "action": "click",
+        "description": "Visit the Ultimate QA website",
+        "selector": "a:contains('www.ultimateqa.com')",
+        "requirements": "The link must be a valid URL"
+      }
+    ]
+  },
+  "https://github.com/johndoe": {
+    "timestamp": "2025-05-07T21:54:44.288954",
+    "actions": [
+      {
+        "action": "click",
+        "description": "Skip to content",
+        "selector": "a.color-bg-accent-emphasis",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Navigate to product page",
+        "selector": "button.HeaderMenu-link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Navigate to solutions page",
+        "selector": "button.HeaderMenu-link:nth-child(2)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Navigate to resources page",
+        "selector": "button.HeaderMenu-link:nth-child(3)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Navigate to open source page",
+        "selector": "button.HeaderMenu-link:nth-child(4)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Navigate to enterprise page",
+        "selector": "button.HeaderMenu-link:nth-child(5)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Search or jump to...",
+        "selector": "button.header-search-button",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Sign in",
+        "selector": "a.HeaderMenu-link--sign-in",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Sign up",
+        "selector": "a.HeaderMenu-link--sign-up",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Follow",
+        "selector": "a.btn.mini-follow-button",
+        "requirements": "User must be signed in"
+      },
+      {
+        "action": "click",
+        "description": "Block or report",
+        "selector": "button.Button--link",
+        "requirements": "User must be signed in"
+      },
+      {
+        "action": "click",
+        "description": "Manage cookies",
+        "selector": "button.Link--secondary:nth-child(1)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Do not share my personal information",
+        "selector": "button.Link--secondary:nth-child(2)",
+        "requirements": "None"
+      }
+    ]
+  },
+  "https://www.saucedemo.com/": {
+    "timestamp": "2025-05-07T22:14:20.394328",
+    "actions": [
+      {
+        "action": "type",
+        "description": "Enter the username",
+        "selector": "#user-name",
+        "requirements": "The input field must be visible and not disabled"
+      },
+      {
+        "action": "type",
+        "description": "Enter the password",
+        "selector": "#password",
+        "requirements": "The input field must be visible and not disabled"
+      },
+      {
+        "action": "click",
+        "description": "Submit the login form",
+        "selector": "#login-button",
+        "requirements": "The button must be visible and not disabled"
+      }
+    ]
+  },
+  "https://www.saucedemo.com/inventory.html": {
+    "timestamp": "2025-05-07T22:09:37.762273",
+    "actions": [
+      {
+        "action": "click",
+        "description": "Open the menu",
+        "selector": "#react-burger-menu-btn",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Go to shopping cart",
+        "selector": "a.shopping_cart_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_4_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_4_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Sauce Labs Backpack to cart",
+        "selector": "#add-to-cart-sauce-labs-backpack",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_0_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_0_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Sauce Labs Bike Light to cart",
+        "selector": "#add-to-cart-sauce-labs-bike-light",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_1_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_1_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Sauce Labs Bolt T-Shirt to cart",
+        "selector": "#add-to-cart-sauce-labs-bolt-t-shirt",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_5_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_5_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Sauce Labs Fleece Jacket to cart",
+        "selector": "#add-to-cart-sauce-labs-fleece-jacket",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_2_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_2_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Sauce Labs Onesie to cart",
+        "selector": "#add-to-cart-sauce-labs-onesie",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product image",
+        "selector": "a#item_3_img_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "View product details",
+        "selector": "a#item_3_title_link",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Add Test.allTheThings() T-Shirt (Red) to cart",
+        "selector": "#add-to-cart-test.allthethings()-t-shirt-(red)",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Visit Twitter page",
+        "selector": "a[text='Twitter']",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Visit Facebook page",
+        "selector": "a[text='Facebook']",
+        "requirements": "None"
+      },
+      {
+        "action": "click",
+        "description": "Visit LinkedIn page",
+        "selector": "a[text='LinkedIn']",
+        "requirements": "None"
+      }
+    ]
+  }
+}
